@@ -14,6 +14,7 @@ Here is some inline code: \`<div></div>\`
 \`\`\`
 function example() {
   return "This is a code block";
+  I don't really understand this thing
 }
 \`\`\`
 
