@@ -1,32 +1,26 @@
-# Markdown Previewer - React App
+# Markdown Previewer 📝
 
-A live Markdown editor and previewer built with React. Real-time conversion of Markdown syntax into HTML using the `marked` library.
+A simple and clean **Markdown Previewer** built with React.
+
+Type Markdown on the left and see the live preview instantly on the right.
 
 ## ✨ Features
 
-- Live preview as you type
-- Supports common Markdown syntax:
-  - Headings
-  - Links
-  - Inline code & code blocks
-  - Lists
-  - Blockquotes
-  - Images
-  - Bold text
-- Clean and simple UI
-- Default sample Markdown content
+- Live Markdown to HTML conversion
+- Default starter content included
+- Clean and responsive layout
+- Uses the popular `marked` library
+- Supports headings, links, code blocks, lists, blockquotes, images, and bold text
 
-## 🛠 Technologies Used
+## 🖼️ Preview
 
-- **React.js** (Functional Components + Hooks)
-- `marked` library for Markdown parsing
-- `dangerouslySetInnerHTML` for rendering HTML
-- CSS (inline + App.css)
+- Top section: Markdown editor (`textarea`)
+- Bottom section: Live rendered preview
 
 ## 🚀 How to Run
 
-1. Make sure you have **Node.js** installed
-2. Install dependencies:
-   ```bash
-   npm install
-   npm install marked
+1. Make sure you have a React project set up
+2. Install the required dependency:
+
+```bash
+npm install marked
