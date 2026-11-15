@@ -22,5 +22,11 @@ Type Markdown on the left and see the live preview instantly on the right.
 1. Make sure you have a React project set up
 2. Install the required dependency:
 
-```bash
+``bash
 npm install marked
+
+## 🛠️ Tech Stack
+
+React (Functional Component + useState)
+marked (Markdown parser)
+Inline CSS (optional App.css)
