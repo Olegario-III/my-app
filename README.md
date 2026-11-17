@@ -30,3 +30,8 @@ npm install marked
 React (Functional Component + useState)
 marked (Markdown parser)
 Inline CSS (optional App.css)
+
+src/
+├── App.js          # Main Markdown Previewer component
+├── App.css         # Optional custom styles
+└── index.js
