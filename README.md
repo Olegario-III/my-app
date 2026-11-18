@@ -35,3 +35,10 @@ src/
 ├── App.js          # Main Markdown Previewer component
 ├── App.css         # Optional custom styles
 └── index.js
+
+## 🎯 How It Works
+
+The markdown state holds the current text in the editor
+Every time you type, onChange updates the state
+The marked library converts the Markdown string into HTML
+The preview section uses dangerouslySetInnerHTML to render the HTML
