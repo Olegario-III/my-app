@@ -42,3 +42,8 @@ The markdown state holds the current text in the editor
 Every time you type, onChange updates the state
 The marked library converts the Markdown string into HTML
 The preview section uses dangerouslySetInnerHTML to render the HTML
+
+## 📝 Notes
+
+This project is commonly used in FreeCodeCamp’s Front End Development Libraries certification
+You can easily customize the default Markdown content or add more features (like a dark mode toggle)
